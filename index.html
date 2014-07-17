@@ -41,13 +41,7 @@
 end
 </textarea>
       <div class="btn-cont w10 center">
-        <button class="w100" onclick="var xhr = new XMLHttpRequest(); 
-        xhr.onreadystatechange = function() {
-          if(xhr.readyState == 4) document.getElementById('to').value = xhr.responseText
-          }; 
-          xhr.open('POST', '/process/', true); 
-          xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded'); 
-          xhr.send('css='+escape(document.getElementById('from').value))">process &gt;&gt;</button>
+        <button class="w100" onclick="">process &gt;&gt;</button>
       </div>
 
   
