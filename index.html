@@ -24,7 +24,7 @@
       <h3 >Java Output:</h3>
       <!-- quirky, flawed, huge success? -->
       <noscript>&lt;b style="color:red"&gt;You need to turn on Javascript&lt;/b&gt;</noscript>
-      <textarea id="to" class="w40 right" ></textarea>
+      <textarea id="to" class="w40 right" readonly></textarea>
       <textarea id="from" class="w40 left">
 fibo (int nums): 
     x = 1 
@@ -50,30 +50,7 @@ end
         <button class="w100" onclick="FillTextArea()">process &gt;&gt;</button>
       </div>
       <script>function FillTextArea() {
-          document.getElementById("to").value = "int fibo (int nums){ 
-                                                    int x = 1; 
-                                                    int y = 1; 
-                                                    if(nums==0) { 
-                                                    return 0; 
-                                                     
-                                                    } 
-                                                    else if(nums>2) { 
-                                                     int c = 0; 
-                                                     for(int a=2; a<nums; ++a) { 
-                                                     c = x+y; 
-                                                     x = y; 
-                                                     y = c; 
-                                                     
-                                                     } 
-                                                     return c; 
-                                                     
-                                                    } 
-                                                    else { 
-                                                     return 1; 
-                                                     
-                                                    }
-                                                    }";
-                                        }
+          document.getElementById("to").value = "int fibo (int nums){ ";}
       </script>
 
     <iframe src="Manual.pdf" width="1075" height="500"></iframe>
