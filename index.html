@@ -47,7 +47,30 @@ fibo (int nums):
 end
 </textarea>
       <div class="btn-cont w10 center">
-        <button class="w100" onclick="FillTextArea()">process &gt;&gt;</button>
+        <button class="w100" onclick="FillTextArea()\n &nbsp;
+                                        int fibo (int nums){ 
+                                        int x = 1; 
+                                        int y = 1; 
+                                        if(nums==0) { 
+                                        return 0; 
+                                         
+                                        } 
+                                        else if(nums>2) { 
+                                         int c = 0; 
+                                         for(int a=2; a<nums; ++a) { 
+                                         c = x+y; 
+                                         x = y; 
+                                         y = c; 
+                                         
+                                         } 
+                                         return c; 
+                                         
+                                        } 
+                                        else { 
+                                         return 1; 
+                                         
+                                        } 
+                                        }";>process &gt;&gt;</button>
       </div>
       <script>function FillTextArea() {
           document.getElementById("to").value = "int fibo (int nums){ ";}
