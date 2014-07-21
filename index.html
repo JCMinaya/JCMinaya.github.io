@@ -18,7 +18,7 @@
       <h1>SimpleJay</h1>
       <h2>“Just sit, and unzip your code”</h2>
     </header></div>
-    <section id="content" class="w85 center">
+    <div id="content" class="w85 center">
       <h3>You hate writing long java codes? This is the right place, SimpleJay simplifies Java to a new level!</h3>
       <h3>SimpleJay Code:</h3>
       <h3 >Java Output:</h3>
@@ -26,24 +26,24 @@
       <noscript>&lt;b style="color:red"&gt;You need to turn on Javascript&lt;/b&gt;</noscript>
       <textarea id="to" class="w40 right" readonly></textarea>
       <textarea id="from" class="w40 left">
-fibo (int nums): 
-    x = 1 
-    y = 1 
-    (nums == 0) if: 
-        -> 0 
-    end 
-    (nums > 2) or: 
-        c = 0 
-        loop a to nums start 2: 
-            c = x+y 
-            x = y 
-            y = c 
-        end 
-        -> c 
-    end 
-    or: 
-        -> 1 
-    end 
+fibo (int nums):
+    x = 1
+    y = 1
+    (nums == 0) if:
+        -> 0
+    end
+    (nums > 2) or:
+        c = 0
+        loop a to nums start 2:
+            c = x+y
+            x = y
+            y = c
+        end
+        -> c
+    end
+    or:
+        -> 1
+    end
 end
 </textarea>
       <div class="btn-cont w10 center">
@@ -53,9 +53,9 @@ end
           document.getElementById("to").value = "int fibo (int nums){\n    int x = 1; int y = 1;\n    if(nums==0) {\n        return 0;\n    }\n    else if(nums>2) {\n        int c = 0;\n        for(int a=2; a<nums; ++a) {\n           c = x+y;\n           x = y;\n           y = c;\n       }\n    return c;\n    }\n    else {\n      return 1;\n    }\n}";
         }
       </script>
-    <div id="pdf">
-    <iframe src="Manual.pdf" width="900" height="500"></iframe>
-    </div>
+
+
+
     <script async="" src="http://api.flattr.com/js/0.6/load.js?mode=auto&amp;
     button=compact&amp;
     language=en&amp;
@@ -69,6 +69,8 @@ end
         var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(t, s);})();
     </script>
     <script type="text/javascript">(function(){var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.async=!0,a.src="http://api.flattr.com/js/0.6/load.js?mode=auto&button=compact&language=en&uid=floatboth&category=software",b.parentNode.insertBefore(a,b)})()</script>
-  
-
+    </div>
+    <div id="pdf">
+        <iframe src="Manual.pdf" width="1075" height="500"></iframe>
+    </div>
 </body></html>

@@ -46,6 +46,11 @@ textarea{
 	padding:.5em;
 	height:20em
 	}
+#pdf {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto
+}
 button{
 	background:#959595;
 	color:white;
@@ -75,8 +80,3 @@ pre{
 		}
 		a{color:#2ca2b1}
 a:hover{color:#5bc8d7}
-
-#pdf {
- float: left;
- margin: 4em 0 0 4.5em
-}
