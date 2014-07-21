@@ -1,0 +1,82 @@
+*{font-family:Cuprum,sans-serif !important}
+textarea,code{
+	font-family:Monaco,monospace !important
+}
+::-moz-selection{
+	background:#5fb531;
+	color:#fff;
+	text-shadow:none
+}
+::selection{
+	background:#959595;
+	color:#fff;
+	text-shadow:none
+	}
+body{
+	text-align:center;
+	background:#FFF3D0;
+	font-size:1.2em
+	}
+h1,h2{
+	text-shadow:#f1fafc 0 2px 0
+	}
+h1{
+	margin:.4em 0 -.1em 0;
+	color:#af1112;
+	font-size:3.8em
+	}
+h2{
+	color:#959595;
+	font-size:1.6em
+	}
+h2,h3,h4{
+	font-weight:normal
+	}
+h3,h4{
+	margin-top:.8em
+	}.lmt{
+		margin-top:.35em
+		}
+#content{
+	text-align:left;
+	margin-top:1.5em
+}
+textarea{
+	background:white;
+	padding:.5em;
+	height:20em
+	}
+#pdf {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto
+}
+button{
+	background:#959595;
+	color:white;
+	outline:none;
+	font-size:1.1em
+	}
+
+button,textarea{
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:#af1112 solid 2px
+	}
+code{
+	border:#af1112 solid 1px;
+	padding:.2em
+}
+pre{
+	padding:.45em;
+	border:#af1112 solid 1px
+	}
+	pre code{
+		border:none
+		}
+	.bpt,footer{
+		padding-top:1.4em
+		}
+		a{color:#2ca2b1}
+a:hover{color:#5bc8d7}
