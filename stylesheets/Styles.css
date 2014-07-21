@@ -75,3 +75,8 @@ pre{
 		}
 		a{color:#2ca2b1}
 a:hover{color:#5bc8d7}
+
+#pdf {
+ float: left;
+ margin: 4em 0 0 4.5em
+}
